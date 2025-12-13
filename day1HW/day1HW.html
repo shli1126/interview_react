@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form style="border: 1px solid black; padding: 6px 6px">
+        <div style="padding: 10px 10px">
+          <label
+            >Full Name:
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              style="width: 200px; height: 25px"
+            />
+          </label>
+        </div>
+
+        <div style="padding: 10px 10px">
+          <label> Gender: </label>
+          <label>
+            <input type="radio" name="gender" id="male" />
+            Male
+          </label>
+          <label>
+            <input type="radio" name="gender" id="female" />
+            Female
+          </label>
+          <label>
+            <input type="radio" name="gender" id="other" />
+            Other
+          </label>
+        </div>
+
+        <div style="padding: 10px 10px">
+          <label> Favorite Programming Language: </label>
+          <br />
+          <select style="width: 200px; height: 25px">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+          </select>
+        </div>
+
+        <div style="padding: 10px 10px">
+          <label> Profile Picture: </label>
+          <br />
+          <input type="file" id="fileUpload" />
+          <br />
+          <img id="preview" />
+        </div>
+
+        <div style="padding: 10px 10px">
+          <input
+            type="submit"
+            value="Submit"
+            style="
+              background-color: dodgerblue;
+              color: white;
+              border-radius: 5px;
+              border: none;
+              padding: 6px 14px;
+              cursor: pointer;
+            "
+          />
+        </div>
+      </form>
+    </div>
+    <script src="day1HW.js"></script>
+  </body>
+</html>

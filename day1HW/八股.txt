@@ -1,0 +1,61 @@
+1. What is HTML?
+    HTML (HyperText Markup Language) is the standard language used to structure content on a
+    webpage. It defines the elements on the page such as text, images, links, forms, buttons, 
+    and layout sections.
+
+2. What is the importance of the meta tag?
+    <meta> tags provide metadata about the webpage to the browser and search engines.
+    - Setting character encoding (<meta charset="UTF-8">)
+    - Controlling viewport for responsiveness
+    - Defining keywords and descriptions for SEO
+    - Controlling caching and browser behavior
+
+
+3. What HTML element is used to tell the user what this form field is for?
+    <label></label>
+
+4. What is the <form> tag used for in HTML?
+    The <form> tag is used to collect user input and submit it to a server.
+    It groups input elements (text fields, radio buttons, checkboxes, file uploads, submit buttons) 
+    and defines how data is sent via its action and method attributes.
+
+5. What is the purpose of using the <p> tag in HTML?
+    The <p> tag represents a paragraph of text.
+    Browsers automatically add spacing before and after it, helping structure readable content.
+
+6. What are self-closing elements in HTML? Give some examples
+    <img/>
+    <input/>
+    <br/>
+    <hr/>
+    <meta/>
+    <link/>
+
+7. What is a block element? How is it different from inline elements?
+    Block elements:
+        Take up the full width of the parent container
+        Start on a new line
+        Can have width, height, margin, padding set
+        <div></div>
+        <p></p>
+        <h1></h1>
+    Inline elements:
+        Only take up as much width as their content
+        Do NOT start on a new line
+        Cannot set width/height directly
+        <span></span>
+        <a></a>
+        <strong></strong>
+        <em></em>
+
+8. Are the HTML tags and elements the same thing?
+    A tag is just the markup: <p></p>
+    An element is the complete structure: <p>Hello World</p>
+
+9. What are semantic HTML tags and why are they important?
+    Semantic tag describe the meaning and purpose of the tag
+
+    They are important because:
+        Improve accessibility (screen readers understand layout)
+        Improve SEO (search engines better understand the content)
+        Make code easier to read and maintain

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .selector > p {
+        color: red;
+      }
+      input:required {
+        border: 2px solid red;
+      }
+      input[type="text"] {
+        background-color: yellow;
+      }
+      .btn:hover {
+        background-color: red;
+      }
+      ul li:first-child {
+        color: blue;
+      }
+      .container {
+        height: 800px;
+        padding: 20px
+
+      }
+      .box {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        background-color: lightskyblue;
+        line-height: 100px;
+        text-align: center;
+        color: aliceblue
+      }
+      #special {
+        background-color: coral;
+        top: 20px;
+        left: 20px;
+        position: sticky;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      .flex-box{
+        background-color:green;
+        color: aliceblue;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="selector">
+      <p>This is first line</p>
+      <div>
+        <p>This is next second line</p>
+      </div>
+    </div>
+    <p>This is p1</p>
+    <p>This is p2</p>
+    <div>
+      <p>This is nested p1</p>
+    </div>
+    <input type="text" placeholder="Please enter your name" required />
+    <input type="password" placeholder="Please enter your password" />
+    <button class="btn">Click me</button>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div id="special" class="box">Special Box</div>
+        <div class="box">Box 3</div>
+    </div>
+    <div class="flex-container">
+      <div class="flex-box">Box 1</div>
+      <div class="flex-box">Box 2</div>
+      <div class="flex-box">Box 3</div>
+    </div>
+  </body>
+</html>

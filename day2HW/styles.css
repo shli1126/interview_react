@@ -1,0 +1,40 @@
+button {
+  background-color: #007bff;
+  color: white;
+  border: None;
+  border-radius: 5px;
+  height: 40px;
+  width: 75px;
+}
+button:hover {
+  color: darkblue;
+}
+
+.text {
+  font-family: sans-serif;
+}
+
+#role {
+  color: grey;
+}
+
+img {
+  height: 85px;
+  width: 85px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
