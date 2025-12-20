@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="q3.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <table border="1" style="width: 100vw">
+        <tr>
+          <th>Product Name</th>
+          <th>Product Category</th>
+          <th>Product Price</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>M&M</td>
+          <td>Snacks</td>
+          <td>$1.99</td>
+          <td style="display: flex; justify-content: center">
+            <button class="btn">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Table</td>
+          <td>Furniture</td>
+          <td>$199</td>
+          <td style="display: flex; justify-content: center">
+            <button class="btn">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Kale</td>
+          <td>Vegetable</td>
+          <td>$2.49</td>
+          <td style="display: flex; justify-content: center">
+            <button class="btn">Delete</button>
+          </td>
+        </tr>
+        <tr></tr>
+      </table>
+      <hr />
+      <div>
+        <h3>Add Product</h3>
+        <form>
+          <label>
+            Product Name:
+            <input name="name" type="text" />
+          </label>
+          <label>
+            Product Category:
+            <input name="category" type="text" />
+          </label>
+          <label>
+            Product Price:
+            <input name="price" type="text" />
+          </label>
+          <button class="btn" type="submit">Add New</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
