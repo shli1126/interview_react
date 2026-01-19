@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form style="border: 1px solid black; padding: 6px 6px">
+        <div style="padding: 10px 10px">
+          <label>
+            Full Name:
+            <br />
+            <input type="text" style="width: 200px; height: 25px" />
+          </label>
+        </div>
+
+        <div style="padding: 10px 10px">
+          <label> Gender: </label>
+          <label
+            >Male
+            <input type="radio" name="gender" />
+          </label>
+          <label
+            >Female
+            <input type="radio" name="gender" />
+          </label>
+          <label
+            >Other
+            <input type="radio" name="gender" />
+          </label>
+        </div>
+
+        <div style="padding: 10px 10px">
+          <label>Favorite Programming Language:</label>
+          <br />
+          <select style="width: 200px; height: 25px">
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>Java</option>
+          </select>
+        </div>
+
+        <div style="padding: 10px 10px">
+          <label>Profile Picture: </label>
+          <br />
+          <input type="file" id="fileUpload" />
+          <img id="preview" />
+        </div>
+
+        <div style="padding: 10px 10px">
+          <input
+            style="
+              background-color: dodgerblue;
+              color: white;
+              border-radius: 5px;
+              border: none;
+              padding: 6px 14px;
+              cursor: pointer;
+            "
+            type="submit"
+          />
+        </div>
+      </form>
+    </div>
+    <script src="q1.js"></script>
+  </body>
+</html>

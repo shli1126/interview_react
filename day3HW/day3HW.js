@@ -23,6 +23,6 @@ console.log(arr1.slice(1, 3))
 //q4
 //splice will modify the original array, return te deleted part
 const arr2 = [1, 2, 3, 4]
-arr2.splice(1, 2)
+console.log(arr2.splice(1, 2))
 console.log(arr2)
 
